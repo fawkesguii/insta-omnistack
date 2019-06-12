@@ -1,2 +1,12 @@
 backend/node_modules/
 node_modules/
+
+backend/yarn.lock
+backend/yarn-error.log
+yarn.lock
+yarn-error.log
+
+backend/.env
+.env
+
+backend/uploads/

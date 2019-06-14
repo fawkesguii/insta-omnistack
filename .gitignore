@@ -1,8 +1,11 @@
 backend/node_modules/
+frontend/node_modules/
 node_modules/
 
 backend/yarn.lock
 backend/yarn-error.log
+frontend/yarn.lock
+frontend/yarn-error.log
 yarn.lock
 yarn-error.log
 

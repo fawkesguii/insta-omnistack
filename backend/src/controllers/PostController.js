@@ -5,7 +5,7 @@ const path = require('path');
 
 module.exports = {
     async index(req,res) {
-        const posts = await Post.find().sort('-created-at');
+        const posts = await Post.find().sort('-createdAt');
 
         return res.json(posts)
     },

@@ -17,7 +17,7 @@ mongoose.connect(process.env.URL_MONGODB, {
 app.use(cors());
 app.use((req, res, next) => {
     req.io = io;
-    next;
+    next();
 });
 
 app.use('/files_resize', express.static(path.resolve(__dirname, '..', 'uploads', 'resizes')))
